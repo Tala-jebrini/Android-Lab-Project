@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#945B9E"
+    android:backgroundTint="#B5F6E1FA"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="242dp"
+
+        android:contentDescription="Profile picture"
+        android:src="@drawable/profile" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_old_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:hint="Old Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:hint="Confirm New Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Update Profile" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable dark mode"
+         />
+</LinearLayout>

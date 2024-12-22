@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#945B9E"
+    android:backgroundTint="#B5F6E1FA"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/edit_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:hint="Start Date"
+        android:focusable="false"
+        android:inputType="none"
+        android:drawableEnd="@drawable/ic_calendar" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/edit_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:hint="End Date"
+        android:focusable="false"
+        android:inputType="none"
+        android:drawableEnd="@drawable/ic_calendar" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/search_by_date_button"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Search by Period Range" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/edit_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:hint="Keyword (Title or Description)"
+        android:inputType="text" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/search_by_keyword_button"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Search by Keyword" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/task_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>

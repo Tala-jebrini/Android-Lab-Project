@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#945B9E"
+    android:backgroundTint="#B5F6E1FA"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:hint="Task Title"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/edit_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:hint="Task Description"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/edit_select_due_date"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Select Due Date" />
+
+    <Spinner
+        android:id="@+id/edit_priority_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/priority_array"
+        android:minHeight="48dp" />
+
+    <CheckBox
+        android:id="@+id/edit_completed_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Completed" />
+
+
+</LinearLayout>

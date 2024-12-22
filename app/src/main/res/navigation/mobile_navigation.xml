@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_today">
+
+    <fragment
+        android:id="@+id/nav_today"
+        android:name="com.example.a1200493_courseproject.ui.TodayFragment"
+        android:label="@string/menu_today"
+        tools:layout="@layout/fragment_today" />
+
+
+    <fragment
+        android:id="@+id/nav_new_task"
+        android:name="com.example.a1200493_courseproject.ui.NewTaskFragment"
+        android:label="@string/menu_new_task"
+        tools:layout="@layout/fragment_new_task">
+        <argument
+            android:name="userEmail"
+            app:argType="string"
+             />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_all_tasks"
+        android:name="com.example.a1200493_courseproject.ui.AllTasksFragment"
+        android:label="@string/menu_all_tasks"
+        tools:layout="@layout/fragment_all_tasks" />
+
+    <fragment
+        android:id="@+id/nav_completed"
+        android:name="com.example.a1200493_courseproject.ui.CompletedTasksFragment"
+        android:label="@string/menu_completed"
+        tools:layout="@layout/fragment_completed" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.a1200493_courseproject.ui.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.a1200493_courseproject.ui.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="com.example.a1200493_courseproject.SignIn"
+        android:label="@string/menu_logout" />
+
+</navigation>

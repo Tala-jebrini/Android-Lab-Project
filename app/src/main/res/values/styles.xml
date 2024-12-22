@@ -1,0 +1,8 @@
+<resources>
+    <style name="RoundedButtonStyle">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

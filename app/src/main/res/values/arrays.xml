@@ -1,0 +1,10 @@
+<resources>
+    <string name="prompt_priority_level">Choose Priority Level</string>
+
+    <string-array name="priority_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+</resources>

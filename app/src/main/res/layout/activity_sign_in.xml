@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#945B9E"
+    android:backgroundTint="#B5F6E1FA"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_sign_in_scene"
+    tools:context=".SignIn">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#D85454"
+        android:backgroundTint="#4FD6CA"
+        app:srcCompat="@drawable/welcome" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="340dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#F43636" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="340dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#F43636" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Remember Me"
+        android:textColor="#0E0D0D"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/BackButton"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+        <Space
+            android:layout_width="65dp"
+            android:layout_height="34dp" />
+
+        <Button
+            android:id="@+id/SignInButton"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Sign in"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+        <Space
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
