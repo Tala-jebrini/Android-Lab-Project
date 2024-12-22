@@ -1,24 +1,38 @@
-Task Management App
+
+# **Task Management App**
+
+
+
 This project is a Task Management Application designed for multiple users, enabling them to manage their daily tasks effectively. Users can sign up, log in, and manage to-do tasks with features such as adding, editing, completing, sharing, and deleting tasks. The app includes functionalities to view tasks for today, all tasks, completed tasks, and tasks within a specific period. Notifications can also be set for reminders, and tasks can be imported via a REST API.
 
-Technical Stack:
+# **Technical Stack:**
+
 Platform: Android
+
 Database: SQLite
+
 Programming: Java
+
 Frameworks: Fragments, Shared Preferences, Dynamic Layouts
+
 Additional Tools:
+
 Emulator: Pixel 3a XL API 26
+
 Images/Icons: undraw.co
 
 
-Files and Documentation:
+
+
+# **Files and Documentation:**
+
 The repository contains:
+
 Source Code: Android project files structured in packages.
-Images: Downloaded from undraw.co.
+
 PDF Documentation: Includes project description and requirements.
 
-
-
+# ****
 
 ![image](https://github.com/user-attachments/assets/8c4ecbbf-6142-4549-92fd-a476d0d9d703)
 
